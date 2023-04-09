@@ -201,17 +201,24 @@ a {
     background-color: #404BBF;
 }
 
-/* .section-goals {
-
-} */
+.section-goals {
+    padding: 120px 0;
+}
 
 /* .goals-hero {} */
 
 .goals-list {
     list-style: none;
+    display: flex;
+    gap: 24px;
 }
 
-/* .goals-item {} */
+.goals-item:not(:last-child)
+{margin-right:0;
+}
+.goals-item {
+    width: calc((100% - 72px) / 4);
+}
 
 .goals-item-name {
     font-family: 'Roboto', sans-serif;
@@ -220,6 +227,8 @@ a {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    
+    margin-bottom: 8px;
 }
 
 .goals-description {
