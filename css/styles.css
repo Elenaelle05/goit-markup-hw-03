@@ -161,9 +161,9 @@ a {
     background-color: var(--navyblue);
     padding: 188px 0;
 }
-.hero-container{
+/* .hero-container{
 
-}
+} */
 .hero {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -335,6 +335,7 @@ a {
     left: 0px;
     top: 2280px;
     background: var(--navyblue)
+    padding: 100px 0;
 }
 
 .footer-link {
@@ -347,6 +348,8 @@ a {
     color: var(--iris);
     text-transform: uppercase;
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px; 
 }
 
 .footer-logo-blue {
