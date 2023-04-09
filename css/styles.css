@@ -262,12 +262,13 @@ a {
 .activites-list {
     display: flex;
     gap: 24px;
+    width: calc((100% - 48px) / 3); 
 }
 .activites-item {
     border: 1px solid #E7E9FC;
     flex: none;
     background-color: #FFFFFF;
-    width: calc((100% - 48px) / 3); 
+    
 }
 
 .section-team {
