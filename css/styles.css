@@ -244,9 +244,7 @@ a {
     background-color: #F4F4FD;
     padding-bottom: 120px;
 } 
-.activites-item{
-    width: 360;
-}
+
 .activites-header {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -275,6 +273,9 @@ a {
     left: 0px;
     top: 1548px;
     background-color: #F4F4FD;
+    padding: 120px 0;
+}
+.team-container {
 
 }
 
@@ -287,14 +288,19 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navyblue);
+    margin-bottom: 72px;
 }
 
 .team-list {
     list-style: none;
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .team-item {
     background-color: #FFFFFF;
+    
 }
 
 .team-member {
@@ -305,6 +311,12 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--navyblue);
+    margin-bottom: 8px;
+
+}
+.team-member-div {
+    padding: 32px 16px;
+    border-radius: 0px 0px 4px 4px;
 
 }
 
@@ -315,6 +327,7 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--slate)
+    
 }
 
 /* FOOTER */
