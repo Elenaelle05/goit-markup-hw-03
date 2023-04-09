@@ -101,7 +101,6 @@ a {
     list-style: none;
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 
 }
 
@@ -114,6 +113,7 @@ a {
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--navyblue);
+    padding: 24px 0;
 }
 .header-item:not(:last-child)
 {margin-right:0
@@ -304,7 +304,6 @@ a {
 
 .team-item {
     background-color: #FFFFFF;
-    width: calc((100% - 48px) / 3);
 }
 
 .team-member {
@@ -333,12 +332,15 @@ a {
     color: var(--slate)
     
 }
+.team-member-div {
+    width: calc((100% - 72px) / 4);
+}
 
 /* FOOTER */
 .footer {
     left: 0px;
     top: 2280px;
-    background: var(--navyblue)
+    background: var(--navyblue);
     padding: 100px 0;
 }
 
