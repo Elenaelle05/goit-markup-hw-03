@@ -89,8 +89,8 @@ a {
     width: 261px;
     left: 347px;
     top: 24px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
 }
 
 .logo-blue {
@@ -101,6 +101,7 @@ a {
     list-style: none;
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 
 }
 
@@ -154,11 +155,15 @@ a {
 /* .main {
 
 } */
+/* HERO */
 
 .section-hero {
     background-color: var(--navyblue);
+    padding: 188px 0;
 }
+.hero-container{
 
+}
 .hero {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -167,6 +172,8 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white);
+    max-width: 496px;
+    margin: auto;
 
 }
 
@@ -178,11 +185,15 @@ a {
     letter-spacing: 0.04em;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
     color: var(--white);
     font-weight: 500;
     cursor: pointer;
-
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: auto;
 }
 
 .hero-button:hover,
