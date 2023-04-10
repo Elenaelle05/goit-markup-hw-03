@@ -299,13 +299,14 @@ a {
 .team-list {
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 72px) / 4);
+    /* flex-basis: calc((100% - 72px) / 4); */
 }
 
 .team-item {
     background-color: #FFFFFF;
 }
 .team-img {
+    flex-basis: calc((100% - 72px) / 4);
    
 }
 
@@ -420,6 +421,13 @@ a {
     border: 1px solid transparent;
     border: 1px solid;
 }
+.portfolio-button:hover,
+.portfolio-button:focus {
+    border: 1px solid transparent;
+    border: 1px solid;
+
+}
+
 /* .examples {
 /* } */
 .examples-list {
@@ -441,7 +449,6 @@ a {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
     
 
 }
@@ -455,6 +462,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navyblue);
+    margin-bottom: 8px;
 }
 .example-p {
     font-size: 16px;
