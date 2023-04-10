@@ -315,6 +315,7 @@ a {
 .team-item {
     background-color: #FFFFFF;
     flex-basis: calc((100% - 72px) / 4);
+    
 }
 
 
