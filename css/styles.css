@@ -379,6 +379,7 @@ a {
 /* PAGE 2 */
 .portfolio-container {
     padding: 96px 0 120px;
+    display: flex;
 
 }
 
@@ -428,7 +429,7 @@ a {
     row-gap: 48px;
 }
 .list {
-} */
+} 
 .examples-item {
     background-color: ;
     width: calc((100% - 48px) / 3);
@@ -441,6 +442,7 @@ a {
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+    
 
 }
 
