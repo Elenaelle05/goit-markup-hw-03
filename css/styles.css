@@ -20,6 +20,7 @@ body {
 
 h1 h2 h3 h4 h5 h6 p {
     margin: 0;
+    margin-top:0;
 }
 
 ul {
@@ -111,6 +112,7 @@ a {
 
 
 .header-link {
+display: block;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -138,6 +140,7 @@ a {
     font-style: normal;
     display: flex;
     gap: 40px;
+    margin-left: auto;
 
 }
 
@@ -257,7 +260,6 @@ a {
 }
 
 .section-activites {
-    background-color: #F4F4FD;
     padding-bottom: 120px;
 }
 
@@ -347,10 +349,6 @@ a {
     color: var(--slate)
 }
 
-.team-member-div {
-    width: calc((100% - 72px) / 4);
-}
-
 /* FOOTER */
 .footer {
     left: 0px;
@@ -380,11 +378,11 @@ a {
 .footer-text {
     left: 156px;
     top: 2420px;
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud);
+    max-width: 264px;
 
 }
 
